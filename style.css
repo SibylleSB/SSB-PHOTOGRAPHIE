@@ -1,0 +1,117 @@
+body {
+	background-color: rgb(200, 200, 200);
+	color: rgb(30, 30, 30);
+	font-family: roboto condensed;
+	font-weight: bold;
+	font-size: 25px;
+}
+h1{
+	color: #21A0A0;
+	font-family: Roboto condensed; 
+	font-weight: 800;
+	font-synthesis: bold; 
+	font-size: 25px;
+	text-transform: uppercase;
+}
+div {
+	border: 1px solid black;
+	background-color : white;
+	padding: 20px;
+	border-radius: 20px;
+	margin: 10%;
+	text-align: center; 
+	box-shadow: 10px 15px 40px;
+}
+
+h2{
+	color: #21A0A0;
+	font-family: roboto condensed; 
+	font-weight: 800; 
+	font-size: 25px;
+	text-transform: uppercase;
+}
+h3{
+	color: #98DED9;
+	font-family: Helvetica; 
+	font-weight: 800; 
+	font-size: 25px;
+	text-transform: uppercase;
+}
+a {
+	text-decoration: none;
+	color: #98DED9;
+}
+a: hover {
+	color: #21A0A0;
+}
+
+.container {
+	width: 1000px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+/* Custom design with class (99% of your design) */
+.container {
+	width: 700px;
+	margin: 40px auto;
+
+}
+.btn-blue {
+	background-color: white; 
+	color: yellow;
+	padding: 15px 20px;
+	border-radius: 4px; 
+}
+.btn-blue: hover {
+	background-color: white; 
+	color: white;
+}
+
+.list-inline {
+	list-style: none; 
+	padding-left: 0px; 
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: grey;
+}
+
+.list-inline i:hover {
+	color: white
+}
+
+.LOGO {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: bold black
+	border-radius : 50%;
+}
+
+/* Design adjustments using id (1% remaining) */
+ #introduction p {
+ 	margin-bottom: 40px;
+}
+
+.instagram-button{
+    color: #21A0A0;
+    padding: 80px
+}
